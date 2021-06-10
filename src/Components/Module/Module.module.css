@@ -1,0 +1,64 @@
+.module {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: -2px 0 0 #555;
+  transition: all 0.3s;
+}
+
+.focused {
+  background-color: #d6efff;
+  border: 1px solid #4fb9ff;
+  box-shadow: -2px 0 0 #0086df;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  composes: titleTypography from "../../Base.module.css";
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.expandBtn {
+  composes: btn from "../../Base.module.css";
+  display: block;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.hideBtn {
+  transform: rotate(180deg);
+}
+
+.description {
+  height: 0;
+  transform: translateY(-10%);
+  margin: 0;
+  color: #555;
+  font-size: 12px;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.expanded {
+  height: unset;
+  margin-top: 5px;
+  transform: translateY(0)
+}

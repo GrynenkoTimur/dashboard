@@ -1,0 +1,13 @@
+.Course {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.title {
+  composes: titleTypography from "../../Base.module.css";
+  font-size: 16px;
+  font-weight: 300;
+}

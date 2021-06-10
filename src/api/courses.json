@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "owner": "Alex",
+    "title": "react course",
+    "tags": [
+      {
+        "name": "partner",
+        "type": "business"
+      },
+      {
+        "name": "top author",
+        "type": "author"
+      },
+      {
+        "name": "regular priority",
+        "type": "priority"
+      }
+    ],
+    "modules": [
+      {
+        "moduleId": 1,
+        "title": "Intro",
+        "status": "in progress",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      },
+      {
+        "moduleId": 2,
+        "title": "React hooks",
+        "status": "submitted",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      },
+      {
+        "moduleId": 3,
+        "title": "React routing",
+        "status": "ready for release",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "owner": "George",
+    "title": "english course",
+    "tags": [
+      {
+        "name": "partner",
+        "type": "business"
+      },
+      {
+        "name": "new author",
+        "type": "author"
+      },
+      {
+        "name": "no activity",
+        "type": "activity"
+      },
+      {
+        "name": "high priority",
+        "type": "priority"
+      }
+    ],
+    "modules": [
+      {
+        "moduleId": 4,
+        "title": "Grammar",
+        "status": "in progress",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      },
+      {
+        "moduleId": 5,
+        "title": "Speaking",
+        "status": "submitted",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      },
+      {
+        "moduleId": 6,
+        "title": "Listening",
+        "status": "ready for release",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      },
+      {
+        "moduleId": 7,
+        "title": "Writing",
+        "status": "submitted",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      },
+      {
+        "moduleId": 8,
+        "title": "Reading",
+        "status": "in progress",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "owner": "Ivan",
+    "title": "cooking course",
+    "tags": [
+      {
+        "name": "new client",
+        "type": "business"
+      },
+      {
+        "name": "high activity",
+        "type": "activity"
+      },
+      {
+        "name": "regular priority",
+        "type": "priority"
+      }
+    ],
+    "modules": [
+      {
+        "moduleId": 9,
+        "title": "Boiling",
+        "status": "in progress",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      },
+      {
+        "moduleId": 10,
+        "title": "Frying",
+        "status": "submitted",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      },
+      {
+        "moduleId": 11,
+        "title": "Cutting",
+        "status": "ready for release",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      },
+      {
+        "moduleId": 12,
+        "title": "Stewing",
+        "status": "submitted",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "owner": "John",
+    "title": "photography course",
+    "tags": [
+      {
+        "name": "new client",
+        "type": "business"
+      },
+      {
+        "name": "no activity",
+        "type": "activity"
+      },
+      {
+        "name": "high priority",
+        "type": "priority"
+      }
+    ],
+    "modules": [
+      {
+        "moduleId": 13,
+        "title": "Intro",
+        "status": "in progress",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      },
+      {
+        "moduleId": 14,
+        "title": "Light",
+        "status": "submitted",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      },
+      {
+        "moduleId": 15,
+        "title": "Composition",
+        "status": "ready for release",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      },
+      {
+        "moduleId": 16,
+        "title": "Retouching",
+        "status": "submitted",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, cupiditate?"
+      }
+    ]
+  }
+]

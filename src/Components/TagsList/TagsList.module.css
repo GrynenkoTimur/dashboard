@@ -1,0 +1,37 @@
+.tagsList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.tag {
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  border-radius: 3px;
+}
+
+.business {
+  composes: tag;
+  background-color: #fce561;
+}
+
+.activity {
+  composes: tag;
+  background-color: #fac474;
+}
+
+.priority {
+  composes: tag;
+  background-color: #ff5c5c;
+}
+
+.author {
+  composes: tag;
+  background-color: #7dc2fa;
+}

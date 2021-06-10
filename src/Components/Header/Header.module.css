@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin: 0 40px;
+  border-bottom: 1px solid #333;
+  min-height: 4.4vh;
+}
+
+.title {
+  composes: titleTypography from "../../Base.module.css";
+  font-size: 24px;
+}
+
+.search {
+  min-width: 250px;
+  box-shadow: none;
+  outline: none;
+  padding: 4px 10px;
+  border-radius: 15px;
+  border: 1px solid #333;
+  margin-right: 5px;
+}
+
+.clearBtn {
+  composes: btn from "../../Base.module.css";
+  border-radius: 50%;
+  border: 1px solid #333;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+  .header {
+    display: block;
+    text-align: center;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .search {
+    min-width: unset;
+  }
+}

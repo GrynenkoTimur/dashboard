@@ -1,0 +1,39 @@
+.aside {
+  /* flex-basis: 25%; */
+  width: 0px;
+  opacity: 0;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: -2px 0 2px #aaa;
+  padding: 10px;
+  transition: all 0.3s;
+  /* transform: translateX(100%); */
+}
+
+.roll {
+  opacity: 1;
+  width: 25%;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  composes: titleTypography from "../../Base.module.css";
+  font-size: 14px;
+}
+
+.title {
+  composes: titleTypography from "../../Base.module.css";
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.closeBtn {
+  composes: btn from "../../Base.module.css";
+  background-color: transparent;
+}

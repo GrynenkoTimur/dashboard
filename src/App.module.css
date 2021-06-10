@@ -1,0 +1,14 @@
+.App {
+  background-color: #ddd;
+}
+
+.pageContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 40px;
+}
+
+.asideActive {
+  padding-right: 0;
+}

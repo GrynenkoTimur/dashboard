@@ -1,0 +1,60 @@
+.main {
+  margin: 20px auto 0;
+  display: flex;
+  flex-basis: 75%;
+  flex-grow: 1;
+  gap:30px;
+  justify-content: space-between;
+  overflow-x: auto;
+  height: 89.8vh;
+}
+
+.main::-webkit-scrollbar {
+  background: #eee;
+  width: 12px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.main::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 6px;
+}
+
+.status {
+  flex-basis: 400px;
+  flex-shrink: 0;
+  height: 86vh;
+}
+
+.statusColumn {
+  overflow-y: auto;
+  height: 94%;
+}
+
+.statusColumn::-webkit-scrollbar {
+  background: #eee;
+  width: 12px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.statusColumn::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 6px;
+}
+
+.statusTitle {
+  composes: titleTypography from "../../Base.module.css";
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 769px){
+  .status {
+    flex-basis: 250px;
+    flex-shrink: 0;
+    height: 86vh;
+  }
+}

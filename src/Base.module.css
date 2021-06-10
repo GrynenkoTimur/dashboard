@@ -1,0 +1,11 @@
+.btn {
+  outline: none;
+  border: none;
+  color: #333;
+}
+
+.titleTypography {
+  color: #333;
+  text-transform: uppercase;
+  margin: 0;
+}
