@@ -30,6 +30,8 @@
   border: 1px solid #333;
   background-color: #fff;
   width: 25px;
+  padding: 0;
+  text-align: center;
   height: 25px;
   line-height: 1;
   cursor: pointer;

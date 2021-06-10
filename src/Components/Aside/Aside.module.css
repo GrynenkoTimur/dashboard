@@ -1,5 +1,4 @@
 .aside {
-  /* flex-basis: 25%; */
   width: 0px;
   opacity: 0;
   overflow: hidden;
@@ -7,7 +6,6 @@
   box-shadow: -2px 0 2px #aaa;
   padding: 10px;
   transition: all 0.3s;
-  /* transform: translateX(100%); */
 }
 
 .roll {
@@ -36,4 +34,11 @@
 .closeBtn {
   composes: btn from "../../Base.module.css";
   background-color: transparent;
+}
+
+
+@media screen and (max-width: 769px) {
+  .roll {
+    width: 100%;
+  }
 }
